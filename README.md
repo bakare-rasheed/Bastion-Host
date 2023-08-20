@@ -1,6 +1,10 @@
 # Setting Up a Secure VPC Infrastructure with Bastion Host Access
 
+In the world of cloud computing and networking, establishing secure and efficient communication between different components is paramount. Our project, "Secure VPC Infrastructure with Bastion Host Access," delves into the creation of a Virtual Private Cloud (VPC) – a virtual network environment within Amazon Web Services (AWS). This project showcases the meticulous steps required to set up a secure communication framework, enabling instances in private subnets to reach external services while maintaining strict control over inbound connections.
 
+Throughout this project, we'll construct a robust VPC architecture that consists of public and private subnets. The public subnet hosts a bastion host – a specially designated instance that acts as a gateway for secure access to other private instances within the VPC. Our focus is on enabling one-way communication: instances in private subnets can initiate connections to external services, but external entities cannot initiate connections to the private instances.
+
+# Steps
 - Create a VPC:
 
 In the AWS Management Console, navigate to the VPC Dashboard.
